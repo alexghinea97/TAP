@@ -77,13 +77,27 @@ void afisareActivitati(std::vector<Activitate> activitati)
 	}
 }
 
+int getIndexActivitateProfitMaxim(std::vector<Activitate> activitati, int timpLimita)
+{
+	int profitMaxim = activitati[0].GetProfit();
+	int index = 0;
+	for (int i = 0; i < activitati.size(); i++)
+		if (activitati[i].GetProfit() > profitMaxim && activitati[i].GetTimpLimita() >= timpLimita) {
+			profitMaxim = activitati[i].GetProfit();
+			index = i;
+		}
+	
+	return index;
+}
+
 void construiesteProfitMaxim(std::vector<Activitate> activitati)
 {
 	int timpActual = activitati[0].GetTimpLimita();
 	while (timpActual > 0)
 	{
-		activitatiCuProfitMaxim.push_back(activitati[0]);
-		activitati.erase(activitati.begin());
+		int index = getIndexActivitateProfitMaxim(activitati, timpActual);
+		activitatiCuProfitMaxim.push_back(activitati[index]);
+		activitati.erase(activitati.begin() + index);
 		timpActual--;
 	}
 }
