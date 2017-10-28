@@ -66,7 +66,7 @@ bool cmd(const Text t1, const Text t2)
 
 	if (l1 != l2)
 		return l1 < l2;
-	return f1 < f2;
+	return f1 > f2;
 }
 
 int main()
