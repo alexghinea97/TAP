@@ -8,12 +8,14 @@ class Text
 {
 	int lungime;
 	int frecventa;
+	double raport;
 
 public:
 	Text(int lungime, int frecventa)
 	{
 		this->lungime = lungime;
 		this->frecventa = frecventa;
+		raport = frecventa / lungime;
 	}
 
 	int getLungime()
@@ -24,6 +26,11 @@ public:
 	int getFrecventa()
 	{
 		return this->frecventa;
+	}
+
+	double getRaport()
+	{
+		return this->raport;
 	}
 };
 std::vector<Text> texte;
@@ -60,15 +67,10 @@ bool cmd(const Text t1, const Text t2)
 	Text a(t1);
 	Text b(t2);
 
-	int l1 = a.getLungime();
-	int l2 = b.getLungime();
+	double r1 = a.getRaport();
+	double r2 = b.getRaport();
 
-	int f1 = a.getFrecventa();
-	int f2 = b.getFrecventa();
-
-	if (l1 != l2)
-		return l1 < l2;
-	return f1 > f2;
+	return r1 > r2;
 }
 
 void afisareBenzi(int nrBenzi)
