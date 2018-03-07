@@ -1,0 +1,6 @@
+﻿  Source.cpp
+c:\users\alexa\desktop\facultate anul 2\tap\laborator\laborator programare dinamica\pb 3\pb 3\source.cpp(36): warning C4018: '<=': signed/unsigned mismatch
+c:\users\alexa\desktop\facultate anul 2\tap\laborator\laborator programare dinamica\pb 3\pb 3\source.cpp(41): warning C4018: '<': signed/unsigned mismatch
+c:\users\alexa\desktop\facultate anul 2\tap\laborator\laborator programare dinamica\pb 3\pb 3\source.cpp(42): warning C4018: '<=': signed/unsigned mismatch
+  Pb 3.vcxproj -> C:\Users\alexa\Desktop\Facultate Anul 2\TAP\Laborator\Laborator Programare Dinamica\Pb 3\Debug\Pb 3.exe
+  Pb 3.vcxproj -> C:\Users\alexa\Desktop\Facultate Anul 2\TAP\Laborator\Laborator Programare Dinamica\Pb 3\Debug\Pb 3.pdb (Partial PDB)

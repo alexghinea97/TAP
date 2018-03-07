@@ -1,0 +1,9 @@
+﻿  Source.cpp
+c:\users\alexa\desktop\facultate anul 2\tap\laborator\laborator programare dinamica\pb 1\pb 1\source.cpp(49): warning C4018: '<': signed/unsigned mismatch
+c:\users\alexa\desktop\facultate anul 2\tap\laborator\laborator programare dinamica\pb 1\pb 1\source.cpp(70): warning C4018: '<': signed/unsigned mismatch
+c:\users\alexa\desktop\facultate anul 2\tap\laborator\laborator programare dinamica\pb 1\pb 1\source.cpp(100): warning C4018: '<': signed/unsigned mismatch
+c:\users\alexa\desktop\facultate anul 2\tap\laborator\laborator programare dinamica\pb 1\pb 1\source.cpp(114): warning C4018: '<': signed/unsigned mismatch
+c:\users\alexa\desktop\facultate anul 2\tap\laborator\laborator programare dinamica\pb 1\pb 1\source.cpp(118): warning C4018: '<': signed/unsigned mismatch
+c:\users\alexa\desktop\facultate anul 2\tap\laborator\laborator programare dinamica\pb 1\pb 1\source.cpp(127): warning C4101: 'nrTurnuriInaltimeMaxima': unreferenced local variable
+  Pb 1.vcxproj -> C:\Users\alexa\Desktop\Facultate Anul 2\TAP\Laborator\Laborator Programare Dinamica\Pb 1\Debug\Pb 1.exe
+  Pb 1.vcxproj -> C:\Users\alexa\Desktop\Facultate Anul 2\TAP\Laborator\Laborator Programare Dinamica\Pb 1\Debug\Pb 1.pdb (Partial PDB)
